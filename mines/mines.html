@@ -27,6 +27,21 @@
 							font-family: 'Arial', sans-serif;
 						}
 
+						@media (max-width: 480px) {
+							.tab {
+							        height: 70px;
+							    }
+							}
+							.tab button {
+							        margin: 0 3px;
+							        padding: 8px 12px;
+							        font-size: 12px;
+							    }
+							.tab button img {
+    						    max-width: 28px;
+    						    height: 28px;
+    						}
+
 						/* Стили для экранов с длиной больше 650px */
 						@media (min-height: 650px) {
 							@keyframes slideDown {
@@ -425,10 +440,6 @@
 							font-family: 'Intro', Arial, sans-serif;
 						}
 
-						.tab button img {
-							max-width: 38px;
-							height: 38px;
-						}
 
 						.tab button:hover {
 							background-color: #555;
@@ -451,11 +462,6 @@
 								padding: 10px 15px;
 								font-size: 14px;
 							}
-
-							.tab button img {
-								max-width: 32px;
-								height: 32px;
-							}
 						}
 
 						@media (max-width: 480px) {
@@ -467,11 +473,6 @@
 								margin: 0 3px;
 								padding: 8px 12px;
 								font-size: 12px;
-							}
-
-							.tab button img {
-								max-width: 28px;
-								height: 28px;
 							}
 						}
 
@@ -490,8 +491,7 @@
 							-webkit-tap-highlight-color: transparent; /* Убирает подсветку при нажатии на любом элементе */
 							-webkit-touch-callout: none; /* Отключает вызов меню на долгий тап */
 						}
-			            element.style {
-			}
+
 			@media (max-width: 480px) {
 			    .tab {
 			        height: 70px;
@@ -521,10 +521,7 @@
 			    border: 0;
 			    border-radius: 64px;
 			}
-			.tab img {
-			    width: 24px;
-			    height: 24px;
-			}
+
 			.tab button:hover {
 			    width: 99%;
 			    background-color: rgba(0, 0, 0, 0.399);
@@ -583,7 +580,13 @@
 		</div>
 
 		<div style="text-align: center">
-			<button id="explodeButton">Получить сигнал</button>
+			<button id="explodeButton">Get signal</button>
+		</div>
+
+		<div class="tab">
+			<button class="tablinks games-icon" data-tab="Games" onclick="window.location.href='https://sasijo03.github.io/new_gm/';">
+				<img src="back.png" alt="Игры">
+			</button>
 		</div>
 
 		<script src="js/telegram-web-app.js"></script>

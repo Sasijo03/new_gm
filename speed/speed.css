@@ -135,7 +135,7 @@ img {
     position: absolute;
     margin-top: 110px;
     margin-left: 150px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial;
     font-weight: bold;
     z-index: 5;
@@ -145,7 +145,7 @@ img {
     position: absolute;
     margin-top: 110px;
     margin-right: 150px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial;
     font-weight: bold;
     z-index: 5;
@@ -157,7 +157,6 @@ img {
     min-width: 100px;
     text-align: left;    
     margin-top: 350px;
-    margin-right: 95px;
     font-size: 20px;
     font-family: Arial;
     font-weight: bold;

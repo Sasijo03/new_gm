@@ -328,7 +328,7 @@
 	</head>
 	<body>
 		<div id="video-background"></div>
-		<div class="game-title">BLUME</div>
+		<div class="game-title">Royal Mines</div>
 		<div class="game-board" id="gameBoard"></div>
 		<div class="play-buttons-container">
 			<button class="reset-button">
@@ -352,6 +352,11 @@
 		<audio id="cl-sound" src="close.mp3"></audio>
 		<div class="background"></div>
 
+		<div class="tab">
+			<button class="tablinks games-icon" data-tab="Games" onclick="window.location.href='https://sasijo03.github.io/new_gm/';">
+				<img src="back.png" alt="Игры">
+			</button>
+		</div>
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				const gameBoard = document.getElementById('gameBoard')
